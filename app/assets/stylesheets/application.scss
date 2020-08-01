@@ -14,4 +14,31 @@
  *= require_self
  */
 
- @import 'bulma'
+ @import 'bulma';
+
+
+ .icon{
+   color: #008080 ;
+ }
+
+ .button.is-info{
+  background-color: #008080 ;
+ }
+ 
+ .button.is-info.is-inverted{
+  color: #008080 ;
+ }
+
+ .btn.button{
+  background-color: #008080 ;
+ }
+
+ html,body{
+   margin: 0;
+   height: 100%;
+   background-color: yellow;
+ }
+
+ footer{
+   background-color: yellowgreen;
+ }
